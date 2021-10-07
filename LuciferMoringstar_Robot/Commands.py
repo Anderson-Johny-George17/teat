@@ -116,12 +116,24 @@ async def start(bot, message):
             photo="https://telegra.ph/file/f19a2f0d4891d9084c73d.jpg",
             caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
-                [[
+                     [[
+
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("More Botz", url="https://t.me/MT_Botz")
+
+                 InlineKeyboardButton("UPDATES Channel", url="https://t.me/Flix_updates")
+
+                    ],[
+
+                InlineKeyboardButton("➕ ADD ME TO YOUR GROUP➕", url="https://t.me/Flixautofilter1_bot?startgroup=true"), 
+
+                    
+
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
+
+                InlineKeyboardButton("Channels", url="https://t.me/Flix_Corner"),
+
                 InlineKeyboardButton("About", callback_data="about")
+
                 ]]
             )
         )
