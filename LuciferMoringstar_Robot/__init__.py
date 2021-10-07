@@ -33,13 +33,13 @@ HELP = """
 """
 
 ABOUT = """
-➥ Name : Auto Filter With IMDB
+➥ Name : Auto Filter With IMDB(https://t.me/Flixautofilter1_bot?startgroup=true) 
     
-➥ Creator : [Muhammed RK](t.me/Mrk_YT)
+➥ Creator : [Anderson 😇](t.me/Anderson_Johny)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Source Code : [Click Me](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+➥ Source Code : [Click Me](t.me/flix_corner)
 """
