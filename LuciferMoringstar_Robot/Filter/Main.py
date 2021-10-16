@@ -130,8 +130,31 @@ async def group(client, message):
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")]
                 )
         else:
+
+            LuciferMoringstar=await client.send_message(
+
+            chat_id = message.chat.id,
+
+            text=f"""
+
+            👋 𝙃𝙚𝙮 {message.from_user.mention}
+
+⚠️  Sorry, No Movie Related to the Given Word Was Found 🥺
+
+🔗 Check Your Spelling In   <a href='https://www.google.com'>🔍  GOOGLE  🔎</a> </b>\n\n<b>   And Try Again
+
+👉if you don't get the movie file contact me   <a href='https://t.me/Anderson_Johny'>admin</a> </b>\n\n<b>  """, 
+
+            parse_mode="html",
+
+            reply_to_message_id=message.message_id
+
+        )
+
             return
+
         if not btn:
+
             return
 
         if len(btn) > 10: 
