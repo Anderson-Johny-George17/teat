@@ -350,3 +350,41 @@ async def bot_info(bot, message):
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    
+    
+
+@Client.on_message(filters.command(["reqformat"]))
+
+async def reqformat(bot, message):
+
+    req_txt = """
+
+<b>🎬 Movies/Series Request Format:</b>
+
+•</b> <code>'Movie Name' + YEAR</code>
+
+<b>👤 #Example:</b> 
+
+Avatar 2009
+
+Inception 2010
+
+Hush 2016
+
+⚠️ While Requesting always remember to send the correct Movie/Series Name. 
+
+💥 <b>#Tip</b>: Copy-Paste the Movie Name from Google.
+
+"""
+
+    buttons = [
+
+        [
+
+            InlineKeyboardButton('📡sʜᴀʀᴇ & sᴜᴘᴘᴏʀᴛ📡', url='https://telegram.me/share/url?url=https://t.me/joinchat/5sKjHHyqt5kwMzc9')
+
+        ]
+
+        ]
+
+    await message.reply(text=req_txt, reply_markup=InlineKeyboardMarkup(buttons), parse_mode="html", disable_web_page_preview=True)
